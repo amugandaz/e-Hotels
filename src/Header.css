@@ -1,0 +1,26 @@
+.header-transparent{
+    background-color: transparent;
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 100;
+    font-weight: 1000;
+}
+.header-opaque{
+    background-color: rgb(25, 86, 130);
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 100;
+    font-weight: 1000;
+}
+.navbar-brand:hover{
+    transition: 0.2s;
+    transform: scale(1.4);
+}
+
+.nav-menu .nav-link:not(:last-child):hover{
+    transition: 0.1s;
+    transform: scale(1.2);
+}
+
